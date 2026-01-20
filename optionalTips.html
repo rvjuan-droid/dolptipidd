@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Optional Tips</title>
+        <style>
+        .budget-container {
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+            padding: 20px 15px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .budget-tips h2 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #222;
+        }
+
+        .budget-tips h4 {
+            font-size: 16px;
+            color: #555;
+            margin-top: 0;
+        }
+
+        .budget-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .bar {
+            padding: 18px 20px;
+            border-radius: 12px;
+            color: white;
+            text-align: left;
+            background: #000;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+            transition: 0.2s ease;
+        }
+
+        .bar:hover {
+            transform: translateY(-4px);
+            box-shadow: 0px 6px 16px rgba(0,0,0,0.22);
+        }
+
+        .bar h2 {
+            font-size: 22px;
+            margin: 0 0 5px;
+            font-weight: 600;
+        }
+
+        .bar h4 {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+
+        .barNeeds { background-color: #2C3E50; }
+        .barWants { background-color: #16A085; }
+        .barSavings { background-color: #8E44AD; }
+
+        footer {
+            background: #f0f0f0;
+            padding: 25px 20px;
+            margin-top: 40px;
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            color: #333;
+            border-top: 1px solid #ddd;
+        }
+
+        footer h3 {
+            margin: 0 0 12px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #222;
+        }
+
+        .saving-tips {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .saving-tips li {
+            margin: 6px 0;
+            font-size: 15px;
+            color: #444;
+            line-height: 1.4;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="budget-container">
+        <div class="budget-tips">
+            <h2>Budget Rule: 60 / 30 / 10</h2>
+            <h4>Use the 60-30-10 rule to manage your money wisely.</h4>
+        </div>
+
+        <div class="budget-bars">
+            <div class="barNeeds">
+                <h2>60% - Needs</h2>
+                <h4>Essentials: Bills, Rent, Groceries, Transport</h4>
+            </div>
+
+            <div class="barWants">
+                <h2>30% - Wants</h2>
+                <h4>Leisure: Food, Shopping, Subscriptions</h4>
+            </div>
+
+            <div class="barSavings">
+                <h2>10% - Savings</h2>
+                <h4>Emergency Fund, Investments, or Goals</h4>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Optional Saving Tips</h3>
+        <ul class="saving-tips">
+            <li>Track your spending weekly so you can see where your money goes.</li>
+            <li>Pay yourself first by automatically saving a portion of your income.</li>
+            <li>Set a weekly spending limit to control impulsive purchases.</li>
+            <li>Build an emergency fund of at least 3–6 months of expenses.</li>
+            <li>Use the 24-hour rule to avoid unnecessary wants.</li>
+        </ul>
+    </footer>
+
+    </body>
+</html>

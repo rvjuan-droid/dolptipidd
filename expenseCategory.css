@@ -1,0 +1,108 @@
+h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 2%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin: 40px 20px 20px;
+  font-size: 30px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3em;
+  padding: 0 40px;
+  margin-bottom: 4%;
+}
+
+/* ===== BOXES ===== */
+.div1,
+.div2,
+.div3 {
+  width: 21em;
+  min-height: 25em;
+  box-shadow: 5px 5px 25px #0000005f;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+/* ===== COLORS ===== */
+#food {
+  background-color: rgba(226, 82, 66, 0.75);
+}
+
+#transpo {
+  background-color: rgba(116, 26, 96, 0.32);
+}
+
+#expenses {
+  background-color: rgba(212, 106, 7, 0.46);
+}
+
+/* ===== SAVINGS ===== */
+.savings-summary {
+  width: 60%;
+  margin: 30px auto 70px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5ffb3;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.savings-summary h3 {
+  font-size: 25px;
+}
+
+.savings-amount {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    gap: 1.5em;
+  }
+
+  .div1,
+  .div2,
+  .div3 {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .savings-summary {
+    width: 90%;
+  }
+}

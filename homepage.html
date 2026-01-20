@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dolptipid</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        section p {
+            font-size: 25px;
+            padding-bottom: 5%;
+            text-align: center;
+            margin: 0 5%;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 50px 0;
+            margin: 0 15%;
+            font-size: 40px;
+            line-height: 1.3;
+        }
+
+        .titleOptional {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .budget-container {
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+            padding: 20px 15px;
+            margin-bottom: 5%;
+        }
+
+        .budget-tips h2 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .budget-tips h4 {
+            font-size: 16px;
+            margin-top: 0;
+        }
+
+        .budget-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .bar {
+            padding: 18px 20px;
+            border-radius: 12px;
+            color: white;
+            text-align: left;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .bar h2 {
+            font-size: 22px;
+            margin: 0 0 5px;
+        }
+
+        .bar h4 {
+            font-size: 15px;
+            margin: 0;
+        }
+
+        .barNeeds { background-color: #2C3E50; }
+        .barWants { background-color: #16A085; }
+        .barSavings { background-color: #8E44AD; }
+
+        footer {
+            text-align: center;
+        }
+
+        /* ✅ MOBILE TEXT FIX */
+        @media (max-width: 768px) {
+            h1 {
+                margin: 0 8%;
+                padding: 20px 0;
+                font-size: 32px;
+                line-height: 1.2;
+            }
+
+            section p {
+                font-size: 16px;
+                margin: 0 8%;
+            }
+
+            .titleOptional {
+                font-size: 24px;
+            }
+
+            .bar h2 {
+                font-size: 18px;
+            }
+
+            .bar h4 {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">DOLPTIPID</div>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="budgetTracker.html">Budget Tracker</a>
+        <a href="expenseCategory.html">Categorization</a>
+        <a href="illustration.html">Illustration</a>
+        <a href="calendar.html">Calendar</a>
+    </nav>
+</header>
+
+<section>
+    <h1>
+        Build discipline, awareness, and efficiency with DOLPTIPID!
+    </h1>
+
+    <p>
+        <b>Doltipid</b> is a budget monitoring website, designed to help Senior High School
+        students manage and track their weekly expenses in food, transportation, and
+        savings.
+    </p>
+
+    <hr style="border: none; height: 10px; background-color:#023047;">
+
+    <h1 class="titleOptional">Optional Tips</h1>
+
+    <div class="budget-container">
+        <div class="budget-tips">
+            <h2>Budget Rule: 60 / 30 / 10</h2>
+            <h4>Use the 60-30-10 rule to manage your money wisely.</h4>
+        </div>
+
+        <div class="budget-bars">
+            <div class="bar barNeeds">
+                <h2>60% - Needs</h2>
+                <h4>Essentials: Bills, Rent, Groceries, Transport</h4>
+            </div>
+            <div class="bar barWants">
+                <h2>30% - Wants</h2>
+                <h4>Leisure: Food, Shopping, Subscriptions</h4>
+            </div>
+            <div class="bar barSavings">
+                <h2>10% - Savings</h2>
+                <h4>Emergency Fund, Investments, or Goals</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h3>Saving Tips</h3>
+    <ul class="saving-tips">
+        <li>Track your spending weekly so you can see where your money goes.</li>
+        <li>Pay yourself first.</li>
+        <li>Set a weekly spending limit.</li>
+        <li>Build an emergency fund.</li>
+        <li>Use the 24-hour rule.</li>
+    </ul>
+    <p>&copy; All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Categorization</title>
+
+    <!-- REQUIRED FOR MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="expenseCategory.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">DOLPTIPID</div>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="budgetTracker.html">Budget Tracker</a>
+        <a href="expenseCategory.html">Categorization</a>
+        <a href="illustration.html">Illustration</a>
+        <a href="calendar.html">Calendar</a>
+    </nav>
+</header>
+
+<section>
+    <h1 class="title">Expense Categorization</h1>
+    <h2>Allowance: ₱ <span id="allowanceAmount">0.00</span></h2>
+
+    <div class="container">
+        <div class="div1" id="food">
+            <h2>Food</h2>
+            <ul></ul>
+        </div>
+
+        <div class="div2" id="transpo">
+            <h2>Transportation</h2>
+            <ul></ul>
+        </div>
+
+        <div class="div3" id="expenses">
+            <h2>Other Expenses</h2>
+            <ul></ul>
+        </div>
+    </div>
+
+    <div class="savings-summary">
+        <h3>Total Savings</h3>
+        <p class="savings-amount">₱ <span id="totalSavings">0.00</span></p>
+    </div>
+</section>
+
+<footer>
+    <h3>Saving Tips</h3>
+    <ul class="saving-tips">
+        <li>Track your spending weekly.</li>
+        <li>Pay yourself first.</li>
+        <li>Set a weekly spending limit.</li>
+        <li>Build an emergency fund.</li>
+        <li>Use the 24-hour rule.</li>
+    </ul>
+    <p>&copy; All rights reserved.</p>
+</footer>
+
+<script src="expenseMain.js"></script>
+</body>
+</html>
