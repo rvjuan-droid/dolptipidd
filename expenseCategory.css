@@ -14,7 +14,6 @@ h2 {
   font-size: 30px;
 }
 
-/* ===== CONTAINER ===== */
 .container {
   display: flex;
   justify-content: center;
@@ -24,7 +23,6 @@ h2 {
   margin-bottom: 4%;
 }
 
-/* ===== BOXES ===== */
 .div1,
 .div2,
 .div3 {
@@ -40,7 +38,6 @@ li {
   margin-bottom: 10px;
 }
 
-/* ===== COLORS ===== */
 #food {
   background-color: rgba(226, 82, 66, 0.75);
 }
@@ -53,7 +50,6 @@ li {
   background-color: rgba(212, 106, 7, 0.46);
 }
 
-/* ===== SAVINGS ===== */
 .savings-summary {
   width: 60%;
   margin: 30px auto 70px;
@@ -73,7 +69,6 @@ li {
   font-weight: bold;
 }
 
-/* ===== MOBILE ===== */
 @media (max-width: 768px) {
 
   .container {
@@ -92,6 +87,7 @@ li {
 
   .title {
     font-size: 24px;
+    margin-top: 8em;
   }
 
   h1 {

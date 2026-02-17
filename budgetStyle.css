@@ -173,19 +173,6 @@ button:hover {
     font-style: italic;
 }
 
-@media (max-width:768px) {
-    .app-container{
-        flex-direction: column;
-        padding: 1rem;
-    }
-
-    #balance {
-        font-size: 2rem;
-    }
-}
-
-/* ===== RESPONSIVE FIXES ===== */
-
 .budget-title {
     text-align: center;
     margin-top: 30px;
@@ -193,7 +180,6 @@ button:hover {
     font-size: 32px;
 }
 
-/* Main layout */
 .app-container {
     display: flex;
     gap: 30px;
@@ -202,18 +188,16 @@ button:hover {
     padding: 0 20px;
 }
 
-/* Inputs */
 .input-container,
 .transactions-container {
     flex: 1;
 }
 
-/* Mobile adjustments */
 @media (max-width: 768px) {
 
     .budget-title {
         font-size: 26px;
-        margin-top: 20px;
+        margin-top: 8em;
     }
 
     .app-container {
@@ -240,5 +224,13 @@ button:hover {
 
     .transactions-container h2 {
         text-align: center;
+    }
+    .app-container{
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    #balance {
+        font-size: 2rem;
     }
 }
