@@ -67,9 +67,11 @@ footer {
     font-size: 15px;
     color: #b8b8b8;
 }
-.saving-tips li:hover {
-    touch-action: auto;
+.budget-bars:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 16px rgba(0,0,0,0.22);
 }
+
 
 @media (max-width: 768px) {
 
