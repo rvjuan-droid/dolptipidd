@@ -67,7 +67,15 @@ footer {
     font-size: 15px;
     color: #b8b8b8;
 }
-.budget-bars:hover {
+.barNeeds:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 16px rgba(0,0,0,0.22);
+}
+.barWants:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 16px rgba(0,0,0,0.22);
+}
+.barSavings:hover {
     transform: translateY(-4px);
     box-shadow: 0px 6px 16px rgba(0,0,0,0.22);
 }
