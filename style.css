@@ -67,6 +67,9 @@ footer {
     font-size: 15px;
     color: #b8b8b8;
 }
+.saving-tips li:hover {
+    touch-action: auto;
+}
 
 @media (max-width: 768px) {
 
